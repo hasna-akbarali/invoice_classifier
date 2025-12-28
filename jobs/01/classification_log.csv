@@ -1,0 +1,443 @@
+source_pdf,id,page,category,has_stamp,stamp_details,invoice_no,receipt_no,full_text
+01.pdf,1,1,Others,False,,,,"DAILY FIELD ACTIVITY REPORT
+
+SALESMAN: SHAHUL HAMEED
+LOCATION: 01 - Jebel Ali
+DATE FROM : 04-11-2025
+DATE TO : 04-11-2025
+
+Cash Payment
+
+SR NO	Time	Ref	DR NO	Customer Name	CASH
+1	09:58:00	01/RM/25/56496	DR2684	ATLAL ALMADINA GROCERY	1,100.00
+2	10:43:41	01/RM/25/56510	DR16383	AL ZAHRAN GROCERY LLC	201.00
+3	10:51:31	01/RM/25/56516	DR16723	WADI AL HAJAR GROCERY LLC	150.00
+Total					1,451.00
+
+Cheque
+
+SR NO	Time	Ref	DR NO	Customer Name	CHEQUE
+Total					0.00
+
+Cash Invoices
+
+SR NO	Time	Invoice No.	Dr	Customer Name	Total(Ex-Tax)	Total(In-Tax)
+Total					0.00	0.00
+
+Transfers
+
+SR NO	Time	Invoice No.	Dr	Customer Name	Total(Ex-Tax)	Total(In-Tax)
+Total					0.00	0.00
+
+Credit Invoices
+
+SR NO	Time	Invoice No.	Dr	Customer Name	Total(Ex-Tax)	Total(In-Tax)
+1	11:14:00	01N25644205-RICE-RC	DR17923	HALA AL MADINA GROCERY LLC	494.22	518.93
+2	12:52:27	01N25644574-SPICES-PROMO	DR13966	AHLAM AL MADINA SUPERMARKET LLC	2,377.75	2,496.38
+3	12:53:13	01N25644578-SPICES	DR13968	AHLAM AL MADINA SUPERMARKET LLC	438.50	460.43
+Total					3,310.22	3,475.74
+
+Run: 04-11-2025 15:50:28	Page:1/ 4
+JISHNU KAKKIDIKKAL"
+01.pdf,2,2,Others,False,,,,"NELLARA
+
+Number of Invoices :- 3
+Number of new Cash Customer Created :-
+Month to date Sale(Ex VAT):-
+Month Target :-
+
+Total Sale                    3,310.22
+Grv Ex                        0.00
+NET SALE                      3,310.22
+Total Cash Received           1,451.00
+
+Salesman Signature                                  Supervisor Signature
+
+Cash Received
+
+Run: 04-11-2025 15:50:28          Page:2/ 4      JISHNU KAKKIDIKKAL"
+01.pdf,3,3,Others,False,,,01/RM/25/56496,"RF DISTRIBUTION
+
+   ROSE FLOWER
+GENERAL TRADING LLC
+P. O. Box 235714, Dubai - United Arab Emirates
+T +971 4 258 5144 | F +971 4 258 5149
+TRN 100268765300003
+
+RECEIPT NO : 01/RM/25/56496
+RECEIPT
+DATE : 04/11/2025 09:58:03
+SALESMAN NAME : SHAHUL HAMEED
+SALESMAN PHONE: 551069831
+TRN : 100336323900003
+Received From : ATLAL ALMADINA GROCERY(DR2684)
+Paid Through : SALES COLLECTION - Cash
+Location : 01 - Jebel Ali
+
+Payment against the following invoices..
+
+Date          Invoice No       Amount     O/S Amt    Received Amt
+14-08-2025    01N25493715-SPICES         672.53     672.53      672.53
+20-08-2025    23N25504711-SPICES         506.85     506.85      506.85
+
+Total                     1179.38     0.00       1100.00
+Advance                    0.00
+Shelf Rent                  0.00
+Discount                    79.38
+Cash Received             1100.00
+
+One thousand one hundred Dirham only
+
+Receiver's Name and Signature                 Checked By
+
+For ROSE FLOWER GENERAL TRADING L. L. C.
+Cheques to be drawn in favour of ROSE FLOWER GENERAL TRADING L. L. C.
+Obtain our official receipt for cash payment. Once delivered, goods will not be taken back.
+sales@rfcombine.com www.rfcombine.com
+* A MEMBER OF RF COMBINE
+Nellara    Ila mittai   ROSE FLOWER    cruz biscuits   Kottakkal"
+01.pdf,4,4,Others,False,,,01/RM/25/56510,"RF DISTRIBUTION
+
+ROSE FLOWER
+GENERAL TRADING LLC
+P. O. Box 235714, Dubai - United Arab Emirates
+T +971 4 258 5144 | F +971 4 258 5149
+TRN 100268765300003
+
+RECEIPT NO : 01/RM/25/56510
+DATE 04/11/2025 10:43:44
+SALESMAN NAME : SHAHUL HAMEED
+SALESMAN PHONE: 551069831
+TRN
+Received From : AL ZAHRAN GROCERY LLC(DR16383)
+JABRL ALI, IND AREA 1, DUBAI, UAE, JABEL ALI, Dubai
+Paid Through : SALES COLLECTION - Cash
+Location : 01 - Jebel Ali
+
+Payment against the following invoices..
+
+Date Invoice No Amount O/S Amt Received Amt
+18-07-2025 01N25443578-SPICES 1516.23 316.23 316.23
+
+Total 316.23
+Advance 0.00
+Shelf Rent 0.00
+Discount 115.23
+Cash Received : 201.00
+
+Two hundred one Dirham only
+
+Receiver's Name and Signature Checked By
+
+For ROSE FLOWER GENERAL TRADING L. L. C.
+Cheques to be drawn in favour of ROSE FLOWER GENERAL TRADING L. L. C.
+Obtain our official receipt for cash payment. Once delivered, goods will not be taken back.
+sales@rfcombine.com www.rfcombine.com
+
+AMEMBER OF RF COMBINE
+Nellara delo matlar ROSE FLOWER Kottakkal"
+01.pdf,5,5,Others,False,,,01/RM/25/56516,"RF DISTRIBUTION
+
+ROSE FLOWER
+GENERAL TRADING LLC
+P. O. Box 235714, Dubai - United Arab Emirates
+T +971 4 258 5144 | F +971 4 258 5149
+TRN 100268765300003
+
+RECEIPT NO : 01/RM/25/56516
+RECEIPT
+DATE : 04/11/2025 10:51:33
+SALESMAN NAME : SHAHUL HAMEED
+SALESMAN PHONE: 551069831
+TRN
+Received From : WADI AL HAJAR GROCERY LLC(DR16723)
+IND AREA 01, JABAL ALI,NEAR GOLDEN JUBILY S/M,JABAL ALI, Dubai
+Paid Through : SALES COLLECTION - Cash
+Location : 01 - Jebel Ali
+
+Payment against the following invoices..
+
+Date Invoice No Amount D/S Amt Received Amt
+09-08-2025 01N25484351-SPICES 1892.38 1542.38 150.00
+
+Total : 150.00
+Advance : 0.00
+Shelf Rent : 0.00
+Discount : 0.00
+Cash Received : 150.00
+
+One hundred fifty Dirham only
+
+Receiver's Name and Signature Checked By
+
+For ROSE FLOWER GENERAL TRADING L. L. C.
+
+Cheques to be drawn in favour of ROSE FLOWER GENERAL TRADING L. L. C.
+Obtain our official receipt for cash payment. Once delivered, goods will not be taken back.
+sales@rfcombine.com www.rfcombine.com
+
+A MEMBER OF RF COMBINE"
+01.pdf,6,6,Tax Invoice,True,HALA AL MADINA GROCERY L.L.C DUBAI - U.A.E,01N25644205-RICE-RC,,"RF DISTRIBUTION
+
+HALA AL MADINA GROCERY LLC
+230-0, JABAL ALI INDUSTRIAL FIRST,
+JABAL ALI, DUBAI, UAE, JABAL ALI
+Dubai
+TRN : 105099002500003
+Tel : 0558103434
+
+TAX INVOICE
+
+ROSE FLOWER
+GENERAL TRADING LLC
+P. O. Box 235714, Dubai - United Arab Emirates
+T +971 4 258 5144 | F +971 4 258 5149
+TRN 100268765300003
+
+INVOICE NO          : 01N25644205-RICE-RC
+DATE               : 04/11/2025 11:14:00
+CUSTOMER CODE       : DR17923
+MODE               : CREDIT
+FROM LOCATION      : 01 - Jebel Ali
+SALESMAN NAME      : SHAHUL HAMEED
+SALESMAN PHONE     : 551069831
+CUSTOMER LPO       : 
+
+Sl No Description                    Barcode Unit Qty Unit Price Disc/ After Net Vat% Vat Gross
+No                                      Unit Disc Amount Amount Amount
+
+1 Nellara Matta Broken Rice 1     6297000 PCS 6.00 6.67 0.00 6.67 40.02 5 % 2.00 42.02
+Kg X 12 Pcs
+2 Nellara Ghee R                 6291104 CTN[1.00 180.00 0.00 180.0 180.00 5 % 9.00 189.00
+ice 2 Kg X 10 181564 10 PCS]
+
+3 Nellara Sona M                 6291104 PCS 6.00 9.67 0.00 9.67 58.02 5 % 2.90 60.92
+asoori Rice 2 Kg X 183315
+Pcs
+
+4 Nellara Egypti on              6291104 PCS 6.00 11.70 0.00 11.70 70.20 5 % 3.51 73.71
+Rice 2 Kg X 183339
+6 Pcs
+
+5 Nellara Jaya B                 6291104 PCS 6.00 9.50 0.00 9.50 57.00 5 % 2.85 59.85
+oiled Rice 2 K 183285
+g X 6 Pcs
+
+6 Nellara Than ja                6291104 PCS 6.00 5.00 0.00 5.00 30.00 5 % 1.50 31.50
+voor Ponni Ric 182622
+e 1 Kg X 12 Pc
+s
+
+7 Nellara Than ja                6291104 PCS 6.00 9.83 0.00 9.83 58.98 5 % 2.95 61.93
+voor Ponni Ric 183353
+e 2 Kg X 6 Pcs
+Continue
+
+Receiver's Name and Signature                     Checked By
+
+                                                  For ROSE FLOWER GENERAL TRADING L. L. C.
+
+                                                  Cheques to be drawn in favour of ROSE FLOWER GENERAL TRADING L. L. C.
+                                                  Obtain our official receipt for cash payment. Once delivered, goods will not be taken back.
+                                                  sales@rfcombine.com www.rfcombine.com
+
+*                                                                                       *
+NELLARA ROSE Kottakkal
+FLOWER
+                                                  AMEMBEROF
+                                                  RF COMBINE
+
+                      *                                       *
+                      HALA AL
+                      AL MADINA
+                      GROCERY L.L.C
+                      DUBAI - U.A.E"
+01.pdf,7,7,Tax Invoice,True,HALA AL MADINA GROCERY LLC DUBAI - U.A.E,01N25644205-RICE-RC,,"RF DISTRIBUTION
+
+HALA AL MADINA GROCERY LLC
+INVOICE NO : 01N25644205-RICE-RC
+
+DATE : 04/11/2025 11:14:00
+PAGE NO : 2/2
+
+ROSE FLOWER
+GENERAL TRADING LLC
+P. O. Box 235714, Dubai - United Arab Emirates
+T +971 4 258 5144 | F +971 4 258 5149
+TRN 100268765300003
+
+Total
+Discount
+Net Amount
+Vat 5%
+Gross Amount
+
+494.22
+0.00
+494.22
+24.71
+518.93 AED
+
+Total Promotional Discount: -0.00
+Total Amount in Words: Five hundred eighteen Dirham and Ninety three Fils only
+
+Receiver's Name and Signature
+Checked By
+
+For ROSE FLOWER GENERAL TRADING L. L. C.
+
+Cheques to be drawn in favour of ROSE FLOWER GENERAL TRADING L. L. C.
+Obtain our official receipt for cash payment. Once delivered, goods will not be taken back.
+sales@rfcombine.com | www.rfcombine.com
+
+AMEMBER OF
+RF COMBINE
+
+* HALA AL MADINA GROCERY LLC DUBAI - U.A.E *"
+01.pdf,8,8,Tax Invoice,True,AHLAM ALMADINA SUPERMARKET LLC,01N25644574-SPICES-PROMO,,"RF DISTRIBUTION
+
+AHLAM AL MADINA SUPERMARKET LLC
+IND AREA 01, JABEL ALI, JABAL ALI DUBAI
+TRN : 104135528800003
+Tel : 0543344164
+
+ROSE FLOWER GENERAL TRADING LLC
+P. O. Box 235714, Dubai - United Arab Emirates
+T +971 4 258 5144 | F +971 4 258 5149
+TRN 100268765300003
+
+TAX INVOICE
+
+INVOICE NO 01N25644574-SPICES-PROMO
+MO 04/11/2025 12:52:27
+CUSTOMER CODE DR13966
+MODE CREDIT
+FROM LOCATION 01 - Jebel Ali
+SALESMAN NAME SHAHUL HAMEED
+SALESMAN PHONE 551069831
+CUSTOMER LPO
+
+Sl Description Barcode Unit Qty Unit Price Disc/ After Net Vat% Vat Gross
+No                  Unit  Disc Amount Amount Amount
+
+1 Nellara Tamari 6297000 CTN[nd 500 Gm X 20 082714 20 Pcs 1.00 140.00 0.00 140.0 140.00 5% 7.00 147.00
+[NAS0026] Nell 6297000 PCS 2.00 7.00 7.00 0.00 0.00 5% 0.00 0.00
+2 ara Tamarind 5 082714 00 Gm X 20 Pcs
+
+3 Nellara Tamari 6297000 CTN[nd 200 Gm X 40 082707 40 Pcs 1.00 130.00 0.00 130.0 130.00 5% 6.50 136.50
+[NAS0025] Nell 6297000 PCS 5.00 3.25 3.25 0.00 0.00 5% 0.00 0.00
+00 Gm X 40 Pcs ara Tamarind 2 082707
+
+Nellara Chicke 6297000 CTN[n Masala.165 G 082196 m 48 Pcs 6.00 240.00 0.00 240.0 1440.0 5% 72.00 1512.00
+Nellara Fish M 6297000 CTN[asala 165 Gm X 082202 48 Pcs 1.00 240.00 0.00 240.0 240.00 5% 12.00 252.00
+48 Pcs
+
+Nellara Mutton 6291104 CTN[Masala 165 Gm 180260 48 Pcs 1.00 240.00 0.00 240.0 240.00 5% 12.00 252.00
+X 48 Pcs
+
+Nellara Mutton 6291104 CTN[Masala 165 Gm 180260 48 Pcs 2.00 240.00 240.0 0.00 0.00 5% 0.00 0.00
+X 48 Pcs
+
+Nellara Turmer 6297000 CTN[ic Powder 200 082134 Gm X 50 Pcs 1.00 187.50 0.00 187.5 187.50 5% 9.38 196.88
+10 [NSP0025] Nell 6297000 PCS 10.0 3.75 3.75 0.00 0.00 5% 0.00 0.00
+ara Turmeric P 082134 owder[200 Gm
+
+Receiver's Name and Signature
+
+Checked By _____________________________
+
+Continue _____________________________
+
+For ROSE FLOWER GENERAL TRADING L. L. C.
+
+Cheques to be drawn in favour of ROSE FLOWER GENERAL TRADING L. L. C.
+Obtain our official receipt for cash payment. Once delivered, goods will not be taken back.
+sales@rfcombine.com www.rfcombine.com"
+01.pdf,9,9,Tax Invoice,True,AHLAM ALMADINA SUPERMARKET LLC,01N25644574-SPICES-PROMO,,"RF DISTRIBUTION
+
+ROSE FLOWER
+GENERAL TRADING LLC
+P. O. Box 235714, Dubai - United Arab Emirates
+T +971 4 258 5144 | F +971 4 258 5149
+TRN 100268765300003
+
+AHLAM AL MADINA SUPERMARKET LLC
+INVOICE NO : 01N25644574-SPICES-PROMO
+DATE      PAGE NO
+: 04/11/2025 12:52:27 : 2/2
+
+Sl Description Barcode Unit Qty Unit Disc/ Price After Net Vat% Vat Gross
+No                     Price Unit Disc Amount Amount Amount
+
+50 Pcs
+
+Total
+Discount
+Net Amount
+Vat 5%
+Gross Amount
+2377.50
+0.00
+2377.50
+118.88
+2496.38 AED
+
+Total Promotional Discount: -547.75
+Total Amount in Words: Two thousand four hundred ninety six Dirham and Thirty eight Fils only
+
+Receiver's Name and Signature
+Checked By
+For ROSE FLOWER GENERAL TRADING L. L. C.
+Cheques to be drawn in favour of ROSE FLOWER GENERAL TRADING L. L. C.
+Obtain our official receipt for cash payment. Once delivered, goods will not be taken back.
+sales@rfcombine.com www.rfcombine.com
+A MEMBER OF
+RF COMBINE
+
+* DUBAI - UAE
+AHLAM ALMADINA SUPERMARKET LLC
+
+PROMOTION INVOICE"
+01.pdf,10,10,Others,True,,,,
+01.pdf,11,11,Tax Invoice,True,Dubai - U.A.E Ahlam Almadina Supermarket LLC,01N25644578-SPICES,,"RF DISTRIBUTION
+
+Ahlam Al Madina Supermarket LLC
+Ind Area 01, Jabel Ali, Jabal Ali, Dubai
+TRN : 104135528800003
+Tel : 0543344164
+
+ROSE FLOWER
+GENERAL TRADING LLC
+P. O. Box 235714, Dubai - United Arab Emirates
+T +971 4 258 5144 | F +971 4 258 5149
+TRN 100268765300003
+
+TAX INVOICE
+
+Invoice No : 01N25644578-SPICES
+Date : 04/11/2025 12:53:13
+Customer Code : DR13966
+Mode : CREDIT
+From Location : 01 - Jebel Ali
+Salesman Name : SHAHUL HAMEED
+Salesman Phone : 551069831
+Customer LPO :
+
+S1 Description No Barcode Unit Qty Unit Price Disc/ Unit Price After Disc Net Amount Vat% Vat Amount Gross Amount
+1 Nellara Garam Masala 100 Gm X 72 Pcs 6297000 082233 CTN[72 P 1.00 324.00 0.00 324.0 324.00 5 % 16.20 340.20
+2 Nellara White Rice Flakes 50 0 Gm X 10 Pcs 6297000 082301 CTN[10 P 1.00 42.50 0.00 42.50 42.50 5 % 2.13 44.63
+3 Nellara Sesame Oil 200 Ml X 48 Pcs 6291104 180123 PCS 12.0 6.00 0.00 6.00 72.00 5 % 3.60 75.60
+
+Total 438.50 0.00 438.50 21.93 460.43 AED
+Discount Net Amount Vat 5%
+Gross Amount
+
+Total Promotional Discount: -0.00
+Total Amount in Words: Four hundred sixty Dirham and Forty three Fils only
+
+Dubai - U.A.E Ahlam Almadina Supermarket LLC
+Receiver's Name and Signature Checked By For ROSE FLOWER GENERAL TRADING L, L, C.
+
+Nellara Dalo mihtar ROSE FLOWER C&R Biscoff Kottakkal
+Cheques to be drawn in favour of ROSE FLOWER GENERAL TRADING L. L. C. Obtain our official receipt for cash payment. Once delivered, goods will not be taken back. sales@rfcombine.com www.rfcombine.com
+AMEMBEROF RF COMBINE"

@@ -1,0 +1,303 @@
+:root{
+  --bg:#0b0e14;
+  --card:#121827;
+  --muted:#a8b3cf;
+  --text:#e8ecf6;
+  --line:#26324a;
+  --btn:#2b61ff;
+  --btn2:#1a2236;
+  --shadow: 0 10px 30px rgba(0,0,0,.35);
+}
+
+*{ box-sizing:border-box; }
+html,body{ height:100%; }
+body{
+  margin:0;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial;
+  background: black;
+  color:var(--text);
+}
+
+.wrap{
+  max-width:1100px;
+  margin:24px auto;
+  padding:0 16px 40px;
+}
+
+.card{
+  background: linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,0));
+  border:1px solid rgba(255,255,255,.08);
+  border-radius:18px;
+  padding:16px;
+  box-shadow: var(--shadow);
+  margin-bottom:16px;
+}
+
+.row{ display:flex; align-items:center; gap:12px; }
+.space{ justify-content:space-between; }
+.muted{ color:var(--muted); font-size:13px; }
+
+.brand{ display:flex; align-items:center; gap:12px; }
+.logoWrap{
+  width:46px; height:46px;
+  border-radius:50%;
+  overflow:hidden;
+  border:1px solid rgba(255,255,255,.14);
+  background: rgba(255,255,255,.06);
+  display:flex; align-items:center; justify-content:center;
+}
+.logoImg{ width:100%; height:100%; object-fit:cover; }
+.brandText h1{ margin:0; font-size:20px; line-height:1.1; }
+
+.pill{
+  padding:6px 10px;
+  border-radius:999px;
+  border:1px solid rgba(255,255,255,.12);
+  background: rgba(255,255,255,.06);
+  font-size:12px;
+  color:var(--text);
+}
+
+.progressbar{
+  height:10px;
+  background: rgba(255,255,255,.06);
+  border:1px solid rgba(255,255,255,.10);
+  border-radius:999px;
+  overflow:hidden;
+  margin-top:10px;
+}
+#bar{
+  height:100%;
+  width:0%;
+  background: linear-gradient(90deg, rgba(43,97,255,1), rgba(66,198,255,1));
+  transition: width .25s ease;
+}
+
+.headerRow h2{
+  margin:0;
+  font-size:16px;
+}
+
+.actions{
+  display:flex;
+  align-items:stretch;
+  gap:10px;
+}
+
+.fileField{ display:flex; align-items:stretch; }
+.fileInput{ display:none; }
+
+.fileButton{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  padding:10px 12px;
+  border-radius:12px;
+  background: rgba(255,255,255,.06);
+  border:1px solid rgba(255,255,255,.12);
+  cursor:pointer;
+  min-height:42px;
+}
+.fileIcon{ font-size:16px; }
+.fileTitle{ font-size:13px; font-weight:600; }
+.fileSub{ font-size:12px; color:var(--muted); }
+
+button{
+  border:none;
+  border-radius:12px;
+  padding:10px 12px;
+  font-weight:600;
+  cursor:pointer;
+  min-height:42px;
+}
+#startBtn{
+  background: var(--btn);
+  color:white;
+}
+button.ghost, #cancelBtn{
+  background: rgba(255,255,255,.06);
+  border:1px solid rgba(255,255,255,.12);
+  color: var(--text);
+}
+button:disabled{
+  opacity:.5;
+  cursor:not-allowed;
+}
+
+.subRow{
+  margin-top:12px;
+}
+
+.filters{
+  flex:1;
+  gap:10px;
+}
+
+.input, .select{
+  background: rgba(255,255,255,.06);
+  border:1px solid rgba(255,255,255,.12);
+  color: var(--text);
+  border-radius:12px;
+  padding:10px 12px;
+  min-height:42px;
+  outline:none;
+}
+.select{ cursor:pointer; }
+
+.downloads{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  flex-wrap:wrap;
+  justify-content:flex-end;
+}
+
+.btnLink{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  padding:9px 10px;
+  border-radius:12px;
+  background: rgba(255,255,255,.06);
+  border:1px solid rgba(255,255,255,.12);
+  color: var(--text);
+  text-decoration:none;
+  font-weight:600;
+  font-size:13px;
+  white-space:nowrap;
+}
+.btnLink:hover{
+  border-color: rgba(255,255,255,.22);
+  background: rgba(255,255,255,.08);
+}
+
+.tableWrap{
+  margin-top:14px;
+  border-radius:14px;
+  border:1px solid rgba(255,255,255,.10);
+
+  /* ✅ make the table itself scrollable */
+  max-height: 520px;          /* change this number if you want taller/shorter */
+  overflow-y: auto;           /* vertical scroll */
+  overflow-x: auto;           /* horizontal scroll if needed */
+}
+
+
+table{
+  width:100%;
+  border-collapse:collapse;
+  font-size:13px;
+  min-width:780px;
+}
+thead th{
+  position: sticky;
+  top: 0;
+  z-index: 5;
+
+  text-align:left;
+  padding:12px;
+
+  /* ✅ make it fully solid so rows don't show behind */
+  background: #0f1524;                 /* solid background */
+  border-bottom:1px solid rgba(255,255,255,.12);
+  color: var(--muted);
+  font-weight:700;
+
+  /* optional: looks nicer */
+  box-shadow: 0 1px 0 rgba(255,255,255,.08);
+}
+
+.tableWrap{
+  -webkit-overflow-scrolling: touch;
+}
+
+tbody td{
+  padding:12px;
+  border-bottom:1px solid rgba(255,255,255,.06);
+  vertical-align:top;
+}
+tbody tr:hover{
+  background: rgba(255,255,255,.03);
+}
+
+.tag{
+  display:inline-block;
+  padding:4px 8px;
+  border-radius:999px;
+  border:1px solid rgba(255,255,255,.12);
+  background: rgba(255,255,255,.06);
+  font-size:12px;
+}
+
+.mini{
+  background: rgba(255,255,255,.06);
+  border:1px solid rgba(255,255,255,.12);
+  color: var(--text);
+  padding:7px 10px;
+  border-radius:10px;
+  min-height:auto;
+}
+.mini:hover{
+  background: rgba(255,255,255,.08);
+}
+
+/* Modal */
+.modal{
+  position:fixed;
+  inset:0;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  z-index:1000;
+}
+.hidden{ display:none; }
+
+.modalBackdrop{
+  position:absolute;
+  inset:0;
+  background: rgba(0,0,0,.55);
+}
+
+.modalCard{
+  position:relative;
+  width:min(980px, calc(100% - 24px));
+  max-height: calc(100% - 24px);
+  overflow:auto;
+  background: #0f1524;
+  border:1px solid rgba(255,255,255,.12);
+  border-radius:18px;
+  padding:14px;
+  box-shadow: var(--shadow);
+}
+
+.modalTitle{ font-size:16px; font-weight:800; }
+.modalBody{ margin-top:12px; display:flex; flex-direction:column; gap:12px; }
+
+.imgWrap{
+  width:100%;
+  border-radius:14px;
+  border:1px solid rgba(255,255,255,.10);
+  overflow:hidden;
+  background: rgba(255,255,255,.03);
+}
+#modalImg{
+  width:100%;
+  height:auto;
+  display:block;
+}
+
+.details summary{
+  cursor:pointer;
+  color: var(--muted);
+  font-weight:700;
+}
+.pre{
+  white-space:pre-wrap;
+  word-wrap:break-word;
+  background: rgba(255,255,255,.04);
+  border:1px solid rgba(255,255,255,.08);
+  border-radius:14px;
+  padding:12px;
+  font-size:12px;
+  color: var(--text);
+}

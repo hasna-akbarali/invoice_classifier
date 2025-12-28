@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Invoice Classifier</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <div class="row space">
+        <div class="brand">
+          <div class="logoWrap">
+            <img src="/nellara_logo.jpg" alt="Nellara" class="logoImg">
+          </div>
+          <div class="brandText">
+            <h1>Invoice Classifier</h1>
+            <div class="muted" id="progressText">Ready.</div>
+          </div>
+        </div>
+        <span class="pill" id="statusPill">idle</span>
+      </div>
+      <div class="progressbar"><div id="bar"></div></div>
+    </div>
+
+    <div class="card">
+      <div class="row space headerRow">
+        <h2>Classification Table</h2>
+
+        <div class="actions">
+          <div class="fileField">
+            <input id="pdfs" class="fileInput" type="file" accept="application/pdf" multiple />
+            <label for="pdfs" class="fileButton">
+              <span class="fileIcon">⬆️</span>
+              <span class="fileText">
+                <div class="fileTitle">Choose PDFs</div>
+                <div id="fileInfo" class="fileSub">No files selected</div>
+              </span>
+            </label>
+          </div>
+
+          <button id="startBtn">Upload + Start</button>
+          <button id="cancelBtn" class="ghost" disabled>Cancel</button>
+        </div>
+      </div>
+
+      <div class="row space subRow">
+        <div class="row filters">
+          <input id="search" class="input" placeholder="Search (pdf, invoice, category…)" />
+
+          <select id="filterCategory" class="select">
+            <option value="">All Categories</option>
+            <option value="Tax Invoice">Tax Invoice</option>
+            <option value="Credit Note">Credit Note</option>
+            <option value="Others">Others</option>
+          </select>
+
+          <select id="filterStamp" class="select">
+            <option value="">All</option>
+            <option value="true">Stamped</option>
+            <option value="false">Unstamped</option>
+          </select>
+        </div>
+
+        <div id="downloads" class="downloads"></div>
+      </div>
+
+      <div class="tableWrap">
+        <table id="table">
+          <thead>
+            <tr>
+              <th>PDF</th>
+              <th>Page</th>
+              <th>Category</th>
+              <th>Stamp</th>
+              <th>Invoice No</th>
+              <th>Receipt No</th>
+              <th>View</th>
+            </tr>
+          </thead>
+          <tbody id="tbody">
+            <tr><td class="muted" colspan="7">Loading…</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div id="modal" class="modal hidden">
+    <div class="modalBackdrop" id="modalBackdrop"></div>
+    <div class="modalCard">
+      <div class="row space">
+        <div>
+          <div id="modalTitle" class="modalTitle">Page</div>
+          <div id="modalMeta" class="muted"></div>
+        </div>
+        <button id="modalClose" class="ghost">Close</button>
+      </div>
+
+      <div class="modalBody">
+        <div class="imgWrap">
+          <img id="modalImg" alt="page image" />
+        </div>
+
+        <details class="details">
+          <summary>Show extracted text</summary>
+          <pre id="modalText" class="pre"></pre>
+        </details>
+      </div>
+    </div>
+  </div>
+
+  <script src="/app.js"></script>
+</body>
+</html>
